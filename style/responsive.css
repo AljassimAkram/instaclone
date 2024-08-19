@@ -1,0 +1,88 @@
+@media (max-width: 1024px) {
+    .headerDiv {
+        padding: 20px 40px;
+    }
+    .menu img {
+        height: 28px;
+    }
+    h1 img {
+        height: 24px;
+    }
+    .search input {
+        width: 150px;
+    }
+}
+@media (max-width: 780px) {
+    .headerDiv {
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .headerSection{
+        flex-wrap: wrap;
+    }
+    .menu img {
+        height: 24px;
+    }
+    h1 img {
+        height: 20px;
+    }
+    .search input {
+        width: 100px;
+    }
+    .postSection,
+    .storysSection,
+    .suggestionsSection {
+        padding: 20px 10px;
+    }
+    .suggestionsSection{
+        flex-wrap: wrap;
+    }
+    .storysSection{
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 480px) {
+    .headerDiv {
+        padding: 10px 20px;
+    }
+    .headerSection{
+       padding: 16px;
+    }
+    .menu img {
+        height: 20px;
+    }
+    h1 img {
+        height: 18px;
+    }
+    .search input {
+        width: 80px;
+    }
+    .postSection,
+    .storysSection,
+    .suggestionsSection {
+        padding: 10px 5px;
+    }
+}
+@media (max-width: 350px) {
+    .headerDiv {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px 10px;
+    }
+    .menu img {
+        height: 16px;
+    }
+    h1 img {
+        height: 16px;
+    }
+    .search input {
+        width: 60px;
+    }
+    .postSection,
+    .storysSection {
+        padding: 5px 5px;
+    }
+    .headerSection {
+        padding: 5px 10px;
+    }
+}
